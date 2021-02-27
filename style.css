@@ -5,11 +5,15 @@
 h1 {
     text-align: center;
     color: #800080;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 img{
     text-align: center;
+    width: 80vw;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 button{

@@ -36,7 +36,7 @@ const App = () => {
         <section style={{ width: '100vw' , height : '100vh' }} >
             <h1> Show Cats Picture </h1>
             <div style={{textAlign: 'center'}} >
-                <img src={pictureCat} style={{ width : '500px', height : '500px' }} ></img>
+                <img src={pictureCat} ></img>
             </div>
             <button onClick={ajax_get} > Change Picture </button>
         </section>
